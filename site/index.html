@@ -10,7 +10,7 @@
 <meta property="og:image" content="/img/dragon-cliff-red.webp">
 <link rel="icon" href="/img/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 :root{--gold:#EBAB00;--amber:#B36B05;--bg:#0b0a10;--bg2:#14121c;--ink:#f4f1ea;--mute:#a9a3b4;--line:#2a2635;--pink:#ff3d8b;--teal:#3ee6c4}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -128,6 +128,8 @@ footer ul{list-style:none;display:grid;gap:6px}
 footer h4{color:var(--ink);font:600 .8rem Inter;letter-spacing:.14em;text-transform:uppercase;margin-bottom:10px}
 .tm{margin-top:36px;font-size:.8rem;color:#7d7689}
 [data-es]{}
+html[lang=zh-Hans] body,html[lang=zh-Hans] h1,html[lang=zh-Hans] h2,html[lang=zh-Hans] h3,html[lang=zh-Hans] .quote,html[lang=zh-Hans] .post b,html[lang=zh-Hans] .film .yt .cap{font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif}
+html[lang=zh-Hans] h1,html[lang=zh-Hans] .eyebrow{letter-spacing:.08em}
 </style>
 </head>
 <body>
@@ -142,7 +144,7 @@ footer h4{color:var(--ink);font:600 .8rem Inter;letter-spacing:.14em;text-transf
     <li><a href="#dao">DAO</a></li>
     <li><a href="#blog">Blog</a></li>
   </ul>
-  <div class="lang"><button data-l="en" class="on">EN</button><button data-l="es">ES</button></div>
+  <div class="lang"><button data-l="en" class="on">EN</button><button data-l="es">ES</button><button data-l="zh">中文</button></div>
 </nav>
 
 <header class="hero" id="top">
@@ -163,7 +165,7 @@ footer h4{color:var(--ink);font:600 .8rem Inter;letter-spacing:.14em;text-transf
   <div class="frame">
     <div class="yt" data-id="t3gGRG4xsJo" style="background-image:url(/img/arena-alien-1.webp)">
       <div class="play"></div>
-      <div class="cap">Binamon Firewars — Official Trailer <small>“Open Your Mind” · Unreal Engine</small></div>
+      <div class="cap" data-i="filmCap">Binamon Firewars — Official Trailer <small>“Open Your Mind” · Unreal Engine</small></div>
     </div>
   </div>
 </section>
@@ -208,15 +210,15 @@ footer h4{color:var(--ink);font:600 .8rem Inter;letter-spacing:.14em;text-transf
     <div class="eyebrow" data-i="gaE">The games</div>
     <h2 data-i="gaH">Three games, <span>one metaverse</span></h2>
     <div class="grid g2" style="margin-top:36px">
-      <article class="card"><img src="/img/demo-scene.webp" alt="Binamon Runner" loading="lazy"><div class="in"><span class="tag">PC · Android · 2021</span><h3>Binamon Runner</h3><p data-i="g1">Run, dodge and beat enemies with elemental combos. Daily score converted into Z1 tokens. More than 10,000 Android installs.</p><div class="links"><a href="#apk" data-i="getApk">Android APK ↓</a><a href="https://www.youtube.com/watch?v=jwMcG6QfQw4" target="_blank" rel="noopener">Gameplay ↗</a></div></div></article>
-      <article class="card"><img src="/img/arena-2.webp" alt="Binamon Firewars" loading="lazy"><div class="in"><span class="tag">PC · 2022</span><h3>Binamon Firewars</h3><p data-i="g2">Real-time multiplayer battles in several maps with a win-to-earn ticket economy: you earn BMON only by beating other players.</p><div class="links"><a href="https://www.youtube.com/watch?v=t3gGRG4xsJo" target="_blank" rel="noopener">Trailer ↗</a><a href="https://www.youtube.com/watch?v=P7-LDcFpuJg" target="_blank" rel="noopener" data-i="g2b">49-min match on Twitch ↗</a></div></div></article>
-      <article class="card"><img src="/img/arena-alien-2.webp" alt="Binamon MOBA Arena" loading="lazy"><div class="in"><span class="tag">AAA · Unreal Engine</span><h3>MOBA Arena</h3><p data-i="g3">The AAA multiplayer online battle arena: explore a 3D metaverse, battle, trade and level up your Binamons. Developed to an advanced stage before the pause.</p><div class="links"><a href="https://www.youtube.com/watch?v=UK6KqxyF8Tg" target="_blank" rel="noopener">First gameplay ↗</a><a href="https://www.youtube.com/watch?v=-K2N5_BSk8U" target="_blank" rel="noopener">Teaser ↗</a></div></div></article>
-      <article class="card"><img src="/img/lands-banner.webp" alt="Binamon Lands" loading="lazy" style="object-fit:cover"><div class="in"><span class="tag">Binance NFT</span><h3>Binamon Lands</h3><p data-i="g4">Be a landlord: earn passive income every time a Binamon is defeated in your territory. Launched with Binance NFT as “Binamon Forest Lands”.</p><div class="links"><a href="https://www.youtube.com/watch?v=qD4w_9diRcg" target="_blank" rel="noopener">Lands video ↗</a></div></div></article>
+      <article class="card"><img src="/img/demo-scene.webp" alt="Binamon Runner" loading="lazy"><div class="in"><span class="tag">PC · Android · 2021</span><h3>Binamon Runner</h3><p data-i="g1">Run, dodge and beat enemies with elemental combos. Daily score converted into Z1 tokens. More than 10,000 Android installs.</p><div class="links"><a href="#apk" data-i="getApk">Android APK ↓</a><a href="https://www.youtube.com/watch?v=jwMcG6QfQw4" target="_blank" rel="noopener" data-i="lGp">Gameplay ↗</a></div></div></article>
+      <article class="card"><img src="/img/arena-2.webp" alt="Binamon Firewars" loading="lazy"><div class="in"><span class="tag">PC · 2022</span><h3>Binamon Firewars</h3><p data-i="g2">Real-time multiplayer battles in several maps with a win-to-earn ticket economy: you earn BMON only by beating other players.</p><div class="links"><a href="https://www.youtube.com/watch?v=t3gGRG4xsJo" target="_blank" rel="noopener" data-i="lTr">Trailer ↗</a><a href="https://www.youtube.com/watch?v=P7-LDcFpuJg" target="_blank" rel="noopener" data-i="g2b">49-min match on Twitch ↗</a></div></div></article>
+      <article class="card"><img src="/img/arena-alien-2.webp" alt="Binamon MOBA Arena" loading="lazy"><div class="in"><span class="tag">AAA · Unreal Engine</span><h3>MOBA Arena</h3><p data-i="g3">The AAA multiplayer online battle arena: explore a 3D metaverse, battle, trade and level up your Binamons. Developed to an advanced stage before the pause.</p><div class="links"><a href="https://www.youtube.com/watch?v=UK6KqxyF8Tg" target="_blank" rel="noopener" data-i="lFg">First gameplay ↗</a><a href="https://www.youtube.com/watch?v=-K2N5_BSk8U" target="_blank" rel="noopener" data-i="lTe">Teaser ↗</a></div></div></article>
+      <article class="card"><img src="/img/lands-banner.webp" alt="Binamon Lands" loading="lazy" style="object-fit:cover"><div class="in"><span class="tag">Binance NFT</span><h3>Binamon Lands</h3><p data-i="g4">Be a landlord: earn passive income every time a Binamon is defeated in your territory. Launched with Binance NFT as “Binamon Forest Lands”.</p><div class="links"><a href="https://www.youtube.com/watch?v=qD4w_9diRcg" target="_blank" rel="noopener" data-i="lLv">Lands video ↗</a></div></div></article>
     </div>
 
     <div class="apk" id="apk">
       <div class="ic"><svg viewBox="0 0 24 24" fill="#fff"><path d="M17.6 9.48l1.84-3.18a.38.38 0 00-.65-.38l-1.86 3.22a11.4 11.4 0 00-9.86 0L5.21 5.92a.38.38 0 00-.65.38L6.4 9.48A10.8 10.8 0 001 18h22a10.8 10.8 0 00-5.4-8.52zM7 15.25a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5zm10 0a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5z"/></svg></div>
-      <div class="tx"><h3>Binamon Runner for Android</h3><p data-i="apkP">Version 1.0 · com.Binamon.Runner · 217 MB · Android 5.0+. The game servers are offline, so it is kept as a collector’s piece.</p><small data-i="apkS">The app is no longer on Google Play. Archived copy hosted by a third-party APK mirror.</small></div>
+      <div class="tx"><h3 data-i="apkH">Binamon Runner for Android</h3><p data-i="apkP">Version 1.0 · com.Binamon.Runner · 217 MB · Android 5.0+. The game servers are offline, so it is kept as a collector’s piece.</p><small data-i="apkS">The app is no longer on Google Play. Archived copy hosted by a third-party APK mirror.</small></div>
       <a class="btn primary" href="https://apkcombo.com/binamon-runner/com.Binamon.Runner/" target="_blank" rel="noopener" data-i="apkB">Download APK ↗</a>
     </div>
   </div>
@@ -228,18 +230,18 @@ footer h4{color:var(--ink);font:600 .8rem Inter;letter-spacing:.14em;text-transf
     <h2 data-i="glH">4K captures from <span>Unreal Engine</span></h2>
     <p class="lead" data-i="glP">In-engine renders of the MOBA Arena and cinematics, plus the 3D NFT artwork of the Binamons.</p>
     <div class="gal">
-      <figure><img src="/img/arena-alien-1.webp" alt="" loading="lazy"><figcaption>Arena · Alien</figcaption></figure>
-      <figure><img src="/img/light-unicorn.webp" alt="" loading="lazy"><figcaption>Light Unicorn · NFT</figcaption></figure>
-      <figure><img src="/img/dragon-end.webp" alt="" loading="lazy"><figcaption>Dragon · cinematic</figcaption></figure>
-      <figure><img src="/img/aragons.webp" alt="" loading="lazy"><figcaption>Aragons · six elements</figcaption></figure>
-      <figure><img src="/img/arena-1.webp" alt="" loading="lazy"><figcaption>Arena · canyon</figcaption></figure>
-      <figure><img src="/img/psychic-unicorn.webp" alt="" loading="lazy"><figcaption>Psychic Unicorn · NFT</figcaption></figure>
-      <figure><img src="/img/arena-alien-4.webp" alt="" loading="lazy"><figcaption>Arena · sunset</figcaption></figure>
-      <figure><img src="/img/arena-alien-3.webp" alt="" loading="lazy"><figcaption>Arena · storm</figcaption></figure>
+      <figure><img src="/img/arena-alien-1.webp" alt="" loading="lazy"><figcaption data-i="fc0">Arena · Alien</figcaption></figure>
+      <figure><img src="/img/light-unicorn.webp" alt="" loading="lazy"><figcaption data-i="fc1">Light Unicorn · NFT</figcaption></figure>
+      <figure><img src="/img/dragon-end.webp" alt="" loading="lazy"><figcaption data-i="fc2">Dragon · cinematic</figcaption></figure>
+      <figure><img src="/img/aragons.webp" alt="" loading="lazy"><figcaption data-i="fc3">Aragons · six elements</figcaption></figure>
+      <figure><img src="/img/arena-1.webp" alt="" loading="lazy"><figcaption data-i="fc4">Arena · canyon</figcaption></figure>
+      <figure><img src="/img/psychic-unicorn.webp" alt="" loading="lazy"><figcaption data-i="fc5">Psychic Unicorn · NFT</figcaption></figure>
+      <figure><img src="/img/arena-alien-4.webp" alt="" loading="lazy"><figcaption data-i="fc6">Arena · sunset</figcaption></figure>
+      <figure><img src="/img/arena-alien-3.webp" alt="" loading="lazy"><figcaption data-i="fc7">Arena · storm</figcaption></figure>
       <figure><img src="/img/bmon-coin.webp" alt="" loading="lazy"><figcaption>$BMON</figcaption></figure>
-      <figure><img src="/img/merch-pillow.webp" alt="" loading="lazy"><figcaption>Merch</figcaption></figure>
-      <figure><img src="/img/merch-backpack.webp" alt="" loading="lazy"><figcaption>Merch</figcaption></figure>
-      <figure><img src="/img/merch-cup.webp" alt="" loading="lazy"><figcaption>Merch</figcaption></figure>
+      <figure><img src="/img/merch-pillow.webp" alt="" loading="lazy"><figcaption data-i="fcM">Merch</figcaption></figure>
+      <figure><img src="/img/merch-backpack.webp" alt="" loading="lazy"><figcaption data-i="fcM">Merch</figcaption></figure>
+      <figure><img src="/img/merch-cup.webp" alt="" loading="lazy"><figcaption data-i="fcM">Merch</figcaption></figure>
     </div>
   </div>
 </section>
@@ -261,15 +263,15 @@ footer h4{color:var(--ink);font:600 .8rem Inter;letter-spacing:.14em;text-transf
     <div class="eyebrow">YouTube</div>
     <h2 data-i="viH">More <span>videos</span></h2>
     <div class="grid g3" style="margin-top:32px">
-      <div class="yt" data-id="P7-LDcFpuJg"><div class="play"></div><div class="cap">Firewars — real multiplayer on Twitch<small>49:31</small></div></div>
-      <div class="yt" data-id="UK6KqxyF8Tg"><div class="play"></div><div class="cap">First MOBA Arena gameplay<small>Oct 2021 · dev build</small></div></div>
-      <div class="yt" data-id="qD4w_9diRcg"><div class="play"></div><div class="cap">Binamon Lands<small>Be a landlord</small></div></div>
-      <div class="yt" data-id="jwMcG6QfQw4"><div class="play"></div><div class="cap">Binamon gameplay</div></div>
-      <div class="yt" data-id="QJY16DXq7aA"><div class="play"></div><div class="cap">Join the Binaverse — first play test<small>8:10</small></div></div>
-      <div class="yt" data-id="G2rMWimghhY"><div class="play"></div><div class="cap">Collect ultra-rare digital monsters<small>2021</small></div></div>
-      <div class="yt" data-id="11dpGmaZSSE"><div class="play"></div><div class="cap">FUD Collection<small>click-to-earn</small></div></div>
-      <div class="yt" data-id="B32_SA00oNY"><div class="play"></div><div class="cap">Firewars Beta Season 1<small>100+ testers</small></div></div>
-      <div class="yt" data-id="kzrJp800lmQ"><div class="play"></div><div class="cap">The Hash of Our Love<small>Binamon original song</small></div></div>
+      <div class="yt" data-id="P7-LDcFpuJg"><div class="play"></div><div class="cap" data-i="v0">Firewars — real multiplayer on Twitch<small>49:31</small></div></div>
+      <div class="yt" data-id="UK6KqxyF8Tg"><div class="play"></div><div class="cap" data-i="v1">First MOBA Arena gameplay<small>Oct 2021 · dev build</small></div></div>
+      <div class="yt" data-id="qD4w_9diRcg"><div class="play"></div><div class="cap" data-i="v2">Binamon Lands<small>Be a landlord</small></div></div>
+      <div class="yt" data-id="jwMcG6QfQw4"><div class="play"></div><div class="cap" data-i="v3">Binamon gameplay</div></div>
+      <div class="yt" data-id="QJY16DXq7aA"><div class="play"></div><div class="cap" data-i="v4">Join the Binaverse — first play test<small>8:10</small></div></div>
+      <div class="yt" data-id="G2rMWimghhY"><div class="play"></div><div class="cap" data-i="v5">Collect ultra-rare digital monsters<small>2021</small></div></div>
+      <div class="yt" data-id="11dpGmaZSSE"><div class="play"></div><div class="cap" data-i="v6">FUD Collection<small>click-to-earn</small></div></div>
+      <div class="yt" data-id="B32_SA00oNY"><div class="play"></div><div class="cap" data-i="v7">Firewars Beta Season 1<small>100+ testers</small></div></div>
+      <div class="yt" data-id="kzrJp800lmQ"><div class="play"></div><div class="cap" data-i="v8">The Hash of Our Love<small>Binamon original song</small></div></div>
     </div>
     <div class="btns"><a class="btn" href="https://www.youtube.com/c/BINAMON" target="_blank" rel="noopener" data-i="ytAll">All videos on YouTube ↗</a></div>
   </div>
@@ -284,10 +286,10 @@ footer h4{color:var(--ink);font:600 .8rem Inter;letter-spacing:.14em;text-transf
     <p class="lead" data-i="daP2">Every token used to mint a Binamon NFT was burned by public, open-source contracts. The remaining treasury and the source code are reserved for the DAO.</p>
     <div class="contracts">
       <a href="https://bscscan.com/tx/0xb1597ae8ba9041c794eef88e38bbba5caecd9444dced9997c3aa7cad551465a4" target="_blank" rel="noopener"><span data-i="c0">Ownership renounced (tx)</span><code>0xb1597ae8…465a4</code></a>
-      <a href="https://bscscan.com/token/0x08ba0619b1e7A582E0BCe5BBE9843322C954C340" target="_blank" rel="noopener"><span>BMON token</span><code>0x08ba0619b1e7A582E0BCe5BBE9843322C954C340</code></a>
+      <a href="https://bscscan.com/token/0x08ba0619b1e7A582E0BCe5BBE9843322C954C340" target="_blank" rel="noopener"><span data-i="c1">BMON token</span><code>0x08ba0619b1e7A582E0BCe5BBE9843322C954C340</code></a>
       <a href="https://bscscan.com/address/0x39F742ba717F6203e081fBC0418FA60F1e245Ea1" target="_blank" rel="noopener"><span data-i="c2">BMONC · Genesis NFT / Booster</span><code>0x39F742ba717F6203e081fBC0418FA60F1e245Ea1</code></a>
-      <a href="https://bscscan.com/address/0x9678A9b37738cc5c6cF1Df39CA9Fe4590EBe015c" target="_blank" rel="noopener"><span>BMONC-Z1 · Z1 NFT</span><code>0x9678A9b37738cc5c6cF1Df39CA9Fe4590EBe015c</code></a>
-      <a href="https://bscscan.com/address/0x425D23145F19bd5Ef64992bcd1e72c8eA8921C9C" target="_blank" rel="noopener"><span>BMONEC · Energy NFT</span><code>0x425D23145F19bd5Ef64992bcd1e72c8eA8921C9C</code></a>
+      <a href="https://bscscan.com/address/0x9678A9b37738cc5c6cF1Df39CA9Fe4590EBe015c" target="_blank" rel="noopener"><span data-i="c3">BMONC-Z1 · Z1 NFT</span><code>0x9678A9b37738cc5c6cF1Df39CA9Fe4590EBe015c</code></a>
+      <a href="https://bscscan.com/address/0x425D23145F19bd5Ef64992bcd1e72c8eA8921C9C" target="_blank" rel="noopener"><span data-i="c4">BMONEC · Energy NFT</span><code>0x425D23145F19bd5Ef64992bcd1e72c8eA8921C9C</code></a>
       <a href="https://bscscan.com/address/0x58fc72396be369C0E00929C12cD912210d1671Cf" target="_blank" rel="noopener"><span data-i="c5">Runner NFT lock</span><code>0x58fc72396be369C0E00929C12cD912210d1671Cf</code></a>
     </div>
     <div class="btns">
@@ -318,14 +320,14 @@ footer h4{color:var(--ink);font:600 .8rem Inter;letter-spacing:.14em;text-transf
     <div class="eyebrow">Blog</div>
     <h2 data-i="blH">The <span>Medium</span> archive</h2>
     <div class="posts">
-      <a class="post" href="https://medium.com/binamon/we-thank-everyone-who-has-supported-the-project-and-the-beautiful-community-we-once-knew-to-be-6d61eddce444" target="_blank" rel="noopener"><small>Jan 2023</small><b>Binamon DAO</b></a>
-      <a class="post" href="https://medium.com/binamon/why-the-pause-2c5a0bdf9e83" target="_blank" rel="noopener"><small>2023</small><b>Why the pause?</b></a>
-      <a class="post" href="https://medium.com/binamon/firewars-bounty-formula-update-1-71d070077e98" target="_blank" rel="noopener"><small>Firewars</small><b>Bounty formula update 1</b></a>
-      <a class="post" href="https://medium.com/binamon/binamon-firewars-how-to-be-ready-for-the-launch-fda5cd635c5e" target="_blank" rel="noopener"><small>Firewars</small><b>How to be ready for the launch</b></a>
-      <a class="post" href="https://medium.com/binamon/binamon-resume-april-march-235e5547cfae" target="_blank" rel="noopener"><small>2022</small><b>Binamon resume</b></a>
-      <a class="post" href="https://medium.com/binamon/the-new-part-of-binamon-comic-724b8e11efc0" target="_blank" rel="noopener"><small>Lore</small><b>The new part of the Binamon comic</b></a>
-      <a class="post" href="https://medium.com/binamon/binamon-business-plan-95df308cfaea" target="_blank" rel="noopener"><small>2022</small><b>Binamon business plan</b></a>
-      <a class="post" href="https://medium.com/binamon/why-should-i-buy-binamon-now-cc3b8a98146" target="_blank" rel="noopener"><small>Jun 2021</small><b>The beginning</b></a>
+      <a class="post" href="https://medium.com/binamon/we-thank-everyone-who-has-supported-the-project-and-the-beautiful-community-we-once-knew-to-be-6d61eddce444" target="_blank" rel="noopener"><small>Jan 2023</small><b data-i="p0">Binamon DAO</b></a>
+      <a class="post" href="https://medium.com/binamon/why-the-pause-2c5a0bdf9e83" target="_blank" rel="noopener"><small>2023</small><b data-i="p1">Why the pause?</b></a>
+      <a class="post" href="https://medium.com/binamon/firewars-bounty-formula-update-1-71d070077e98" target="_blank" rel="noopener"><small>Firewars</small><b data-i="p2">Bounty formula update 1</b></a>
+      <a class="post" href="https://medium.com/binamon/binamon-firewars-how-to-be-ready-for-the-launch-fda5cd635c5e" target="_blank" rel="noopener"><small>Firewars</small><b data-i="p3">How to be ready for the launch</b></a>
+      <a class="post" href="https://medium.com/binamon/binamon-resume-april-march-235e5547cfae" target="_blank" rel="noopener"><small>2022</small><b data-i="p4">Binamon resume</b></a>
+      <a class="post" href="https://medium.com/binamon/the-new-part-of-binamon-comic-724b8e11efc0" target="_blank" rel="noopener"><small>Lore</small><b data-i="p5">The new part of the Binamon comic</b></a>
+      <a class="post" href="https://medium.com/binamon/binamon-business-plan-95df308cfaea" target="_blank" rel="noopener"><small>2022</small><b data-i="p6">Binamon business plan</b></a>
+      <a class="post" href="https://medium.com/binamon/why-should-i-buy-binamon-now-cc3b8a98146" target="_blank" rel="noopener"><small>Jun 2021</small><b data-i="p7">The beginning</b></a>
     </div>
     <div class="btns"><a class="btn" href="https://medium.com/binamon" target="_blank" rel="noopener" data-i="blAll">All posts on Medium ↗</a></div>
   </div>
@@ -348,7 +350,7 @@ footer h4{color:var(--ink);font:600 .8rem Inter;letter-spacing:.14em;text-transf
       </ul></div>
     </div>
     <p class="tm" data-i="tm">This is an archive page. Binamon tokens and NFTs are not offered or sold here, and nothing on this page is financial advice. The Telegram and Discord channels are no longer official.</p>
-    <p class="tm">A project by <a href="https://nicolasveigapalacios.com" target="_blank" rel="noopener">Nicolás E. Veiga Palacios</a> · Creating the impossible™</p>
+    <p class="tm"><span data-i="by">A project by</span> <a href="https://nicolasveigapalacios.com" target="_blank" rel="noopener">Nicolás E. Veiga Palacios</a> · Creating the impossible™</p>
   </div>
 </footer>
 
@@ -367,6 +369,12 @@ document.querySelectorAll('.gal img,.comic img').forEach(i=>i.addEventListener('
 lb.addEventListener('click',()=>lb.classList.remove('on'));
 // i18n EN/ES
 const ES={
+filmCap:"Binamon Firewars — Tráiler oficial <small>“Open Your Mind” · Unreal Engine</small>",
+lGp:"Gameplay ↗",lTr:"Tráiler ↗",lFg:"Primer gameplay ↗",lTe:"Teaser ↗",lLv:"Video de Lands ↗",apkH:"Binamon Runner para Android",
+fc0:"Arena · Alien",fc1:"Unicornio de Luz · NFT",fc2:"Dragón · cinemática",fc3:"Aragons · seis elementos",fc4:"Arena · cañón",fc5:"Unicornio Psíquico · NFT",fc6:"Arena · atardecer",fc7:"Arena · tormenta",fcM:"Merchandising",
+v0:"Firewars — multijugador real en Twitch<small>49:31</small>",v1:"Primer gameplay de la MOBA Arena<small>oct 2021 · versión de desarrollo</small>",v2:"Binamon Lands<small>Convertite en terrateniente</small>",v3:"Gameplay de Binamon",v4:"Unite al Binaverse — primera prueba de juego<small>8:10</small>",v5:"Coleccioná monstruos digitales ultra raros<small>2021</small>",v6:"FUD Collection<small>click-to-earn</small>",v7:"Firewars Beta Temporada 1<small>más de 100 testers</small>",v8:"The Hash of Our Love<small>canción original de Binamon</small>",
+p0:"Binamon DAO",p1:"¿Por qué la pausa?",p2:"Actualización 1 de la fórmula de recompensas",p3:"Cómo estar listo para el lanzamiento",p4:"Resumen de Binamon",p5:"La nueva parte del cómic de Binamon",p6:"Plan de negocios de Binamon",p7:"El comienzo",
+by:"Un proyecto de",c1:"Token BMON",c3:"BMONC-Z1 · NFT Z1",c4:"BMONEC · NFT Energy",
 nav1:"Película",nav2:"Historia",nav3:"Juegos",nav4:"Galería",
 badge:"2021 – 2023 · Hoy una DAO de la comunidad",
 heroP:"Un metaverso de monstruos digitales nacido en BNB Smart Chain en junio de 2021. Tres juegos, medio millón de criaturas NFT, tierras en Binance NFT y una comunidad global en Twitter, Discord, Telegram y YouTube. El juego terminó: esta es su memoria.",
@@ -403,16 +411,58 @@ blH:"El archivo de <span>Medium</span>",blAll:"Todos los posts en Medium ↗",
 ft:"Binamon Ltd · 2021–2023. Hoy una DAO de la comunidad.<br>Coleccioná monstruos digitales ultra raros en blockchain.",ftC:"Comunidad (archivo)",ftS:"Fuentes",ftW:"Sitio original (Wayback)",
 tm:"Esta es una página de archivo. Aquí no se ofrecen ni venden tokens ni NFT de Binamon, y nada de lo que dice es consejo financiero. Los canales de Telegram y Discord ya no son oficiales."
 };
+const ZH={
+nav1:"影片",nav2:"历程",nav3:"游戏",nav4:"图库",
+badge:"2021 – 2023 · 现已交由社区 DAO",
+heroP:"2021 年 6 月诞生于 BNB 智能链的数字怪兽元宇宙。三款游戏、五十万只 NFT 生物、Binance NFT 上的土地，以及遍布 Twitter、Discord、Telegram 和 YouTube 的全球社区。游戏已经落幕——这里是它的记忆。",
+watch:"回顾它的样子",toDao:"阅读 DAO 移交声明",
+filmCap:"Binamon Firewars — 官方预告片 <small>“Open Your Mind” · Unreal Engine</small>",
+numE:"数据",numH:"<span>Binaverse</span> 的成就",numP:"以下数据均为 Binamon 当时在官网及内部里程碑记录中公布。",
+s1:"Binamers 累计收益",s2:"已创建的 Binamon（NFT）",s3:"活跃 $BMON 持有者",s4:"$BMON 历史最高价 · 2021 年 8 月 23 日",s5:"峰值当日交易量",s6:"Binamon 自有市场成交额",s7:"每日真人游戏时长（Runner 纪录）",s8:"安卓下载量 · Google Play 评分 4.2★",
+stE:"历程",stH:"从布宜诺斯艾利斯到 <span>BNB 链</span>",
+t1h:"Binamon 诞生",t1p:"一家加密游戏公司立志在币安智能链上打造 AAA+ 级游戏。$BMON 代币驱动整个经济：每个 Binamon NFT 都通过 Booster 合约销毁 $BMON 铸造，因此收藏规模越大，代币供应越少。",
+t2h:"Genesis NFT 与质押",t2p:"每个补充包可开出三只 Binamon，并有机会获得超稀有变体。持有者可以对战、交易或质押怪兽获取被动收益，并在 PancakeSwap、Alpaca Finance 和 BakerySwap 上提供农场。",
+t3h:"历史最高点",t3p:"$BMON 涨至 0.88 美元，单日成交额创下 8,200 万美元纪录。随后陆续上线 KuCoin、Gate.io、LBank 等十余家交易所。",
+t4h:"Binamon Runner",t4p:"元宇宙中的首款边玩边赚游戏，支持 PC 和安卓。玩家锁定一个 Z1 NFT 即可奔跑、以元素连招战斗并赚取 BMON-Z1 代币——创下每日超过 80,000 小时真人游戏时长的纪录。",
+t5h:"MOBA Arena 首次实机演示",t5p:"基于虚幻引擎打造的 AAA 多人竞技场公开首段开发版实机画面。后期制作由 Starloop Studios 参与。",
+t6h:"“dApp 之王”",t6p:"BSC News 于 2021 年 11 月 13 日授予 Binamon “dApp 之王”称号，并获提名“BSC 最具价值建设者”。Binance NFT 在其市场推出“Binamon Forest Lands”。",
+t7h:"从边玩边赚到赢了才赚",t7p:"Runner 停运，取而代之的是更可持续的模式。实时多人射击游戏 Binamon Firewars 只奖励获胜者：每局需 5 BMON 门票，由玩家、奖池和项目方分配。FUD Collection 与 Lands 也相继加入。",
+t8h:"DAO",t8p:"创始团队卸任，将项目交给社区 DAO，并在链上放弃 BMON 合约的所有权。Binamon 从此成为一段传承。",
+gaE:"游戏",gaH:"三款游戏，<span>一个元宇宙</span>",
+g1:"奔跑、闪避，用元素连招击败敌人。每日得分转换为 Z1 代币。安卓安装量超过 10,000 次。",getApk:"安卓 APK ↓",lGp:"实机画面 ↗",
+g2:"多张地图中的实时多人对战，采用“赢了才赚”的门票经济：只有击败其他玩家才能赚取 BMON。",lTr:"预告片 ↗",g2b:"Twitch 上 49 分钟对局 ↗",
+g3:"AAA 级多人在线战斗竞技场：探索 3D 元宇宙，战斗、交易并升级你的 Binamon。在暂停前已开发至较成熟阶段。",lFg:"首次实机演示 ↗",lTe:"先导预告 ↗",
+g4:"成为领主：每当有 Binamon 在你的领地被击败，你就获得被动收入。与 Binance NFT 合作以“Binamon Forest Lands”推出。",lLv:"Lands 视频 ↗",
+apkH:"Binamon Runner 安卓版",apkP:"版本 1.0 · com.Binamon.Runner · 217 MB · Android 5.0+。游戏服务器已关闭，作为收藏品保留。",
+apkS:"该应用已从 Google Play 下架。存档副本由第三方 APK 镜像站托管。",apkB:"下载 APK ↗",
+glE:"图库",glH:"来自 <span>虚幻引擎</span> 的 4K 截图",glP:"MOBA Arena 与过场动画的引擎内渲染图，以及 Binamon 的 3D NFT 艺术作品。",
+fc0:"竞技场 · 异星",fc1:"光之独角兽 · NFT",fc2:"巨龙 · 过场动画",fc3:"Aragons · 六种元素",fc4:"竞技场 · 峡谷",fc5:"灵能独角兽 · NFT",fc6:"竞技场 · 日落",fc7:"竞技场 · 风暴",fcM:"周边商品",
+loE:"世界观",loH:"Binamon <span>漫画</span>",loP:"力量展示、联邦议会、引发 Binamon 内战的海盗袭击，以及争夺隐藏在领地中的 Binamon 矿石之战。",
+viH:"更多 <span>视频</span>",ytAll:"在 YouTube 上观看全部视频 ↗",
+v0:"Firewars — Twitch 上的真人多人对战<small>49:31</small>",v1:"MOBA Arena 首次实机演示<small>2021 年 10 月 · 开发版本</small>",v2:"Binamon Lands<small>成为领主</small>",v3:"Binamon 实机画面",v4:"加入 Binaverse — 首次试玩<small>8:10</small>",v5:"收集超稀有数字怪兽<small>2021</small>",v6:"FUD Collection<small>点击赚取</small>",v7:"Firewars 测试第一季<small>100 多名测试者</small>",v8:"The Hash of Our Love<small>Binamon 原创歌曲</small>",
+daH:"项目现在属于 <span>社区</span>",
+daP1:"2023 年 1 月 25 日，创始团队宣布 Binamon 将移交给一个 DAO，由社区创建、维护和管理，以延续项目。原有的中心化频道不再具有官方效力，BMON 合约的所有权也已在链上放弃。",
+daQ:"“我们最大的骄傲，就是看到 Binamon 的传承得以延续。”",
+daP2:"所有用于铸造 Binamon NFT 的代币均已通过公开、开源的合约销毁。剩余的金库与源代码保留给 DAO。",
+c0:"放弃所有权（交易）",c1:"BMON 代币",c2:"BMONC · Genesis NFT / Booster",c3:"BMONC-Z1 · Z1 NFT",c4:"BMONEC · 能量 NFT",c5:"Runner NFT 锁仓",
+daB:"阅读完整声明 ↗",daG:"GitHub 上的开源素材 ↗",
+paE:"合作伙伴与上线平台",paH:"Binamon <span>曾经的足迹</span>",
+blH:"<span>Medium</span> 文章存档",blAll:"在 Medium 上查看全部文章 ↗",
+p0:"Binamon DAO",p1:"为什么暂停？",p2:"赏金公式更新 1",p3:"如何为上线做好准备",p4:"Binamon 回顾",p5:"Binamon 漫画新篇章",p6:"Binamon 商业计划",p7:"起点",
+ft:"Binamon Ltd · 2021–2023。现已交由社区 DAO。<br>在区块链上收集超稀有数字怪兽。",ftC:"社区（存档）",ftS:"资料来源",ftW:"原始网站（Wayback）",
+tm:"本页面为存档页面。此处不提供或出售任何 Binamon 代币或 NFT，页面内容亦不构成任何投资建议。Telegram 和 Discord 频道已不再是官方渠道。",
+by:"项目创建者"
+};
 const EN={};document.querySelectorAll('[data-i]').forEach(e=>EN[e.dataset.i]=e.innerHTML);
 function setLang(l){
-  document.documentElement.lang=l;
-  document.querySelectorAll('[data-i]').forEach(e=>{const k=e.dataset.i;const v=(l==='es'?ES:EN)[k];if(v)e.innerHTML=v});
+  document.documentElement.lang=(l==='zh'?'zh-Hans':l);const D={en:EN,es:ES,zh:ZH}[l];
+  document.querySelectorAll('[data-i]').forEach(e=>{const k=e.dataset.i;const v=D[k]||EN[k];if(v)e.innerHTML=v});
   document.querySelectorAll('.lang button').forEach(b=>b.classList.toggle('on',b.dataset.l===l));
   try{localStorage.setItem('bmon-lang',l)}catch(e){}
 }
 document.querySelectorAll('.lang button').forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.l)));
-let pref='en';try{pref=localStorage.getItem('bmon-lang')||((navigator.language||'').startsWith('es')?'es':'en')}catch(e){}
-if(pref==='es')setLang('es');
+let pref='en';try{const nl=(navigator.language||'').toLowerCase();pref=localStorage.getItem('bmon-lang')||(nl.startsWith('es')?'es':nl.startsWith('zh')?'zh':'en')}catch(e){}
+if(pref!=='en')setLang(pref);
 </script>
 </body>
 </html>
